@@ -1,303 +1,194 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>FATE - 路在当下，未来可期</title><meta name="author" content="郭晓天,164171503@qq.com"><meta name="copyright" content="郭晓天"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="路在当下，未来可期">
+<meta property="og:type" content="website">
+<meta property="og:title" content="FATE">
+<meta property="og:url" content="https://gxt-sudu.github.io/index.html">
+<meta property="og:site_name" content="FATE">
+<meta property="og:description" content="路在当下，未来可期">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="郭晓天">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://gxt-sudu.github.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'FATE',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-09-29 21:38:09'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-<meta name="generator" content="Hexo 5.4.2"></head>
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-什么是白帽子，黑帽子，红帽子黑客-不同类型的黑客解释" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2022/09/23/%E4%BB%80%E4%B9%88%E6%98%AF%E7%99%BD%E5%B8%BD%E5%AD%90%EF%BC%8C%E9%BB%91%E5%B8%BD%E5%AD%90%EF%BC%8C%E7%BA%A2%E5%B8%BD%E5%AD%90%E9%BB%91%E5%AE%A2-%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E9%BB%91%E5%AE%A2%E8%A7%A3%E9%87%8A/" class="article-date">
-  <time datetime="2022-09-23T06:59:42.000Z" itemprop="datePublished">2022-09-23</time>
-</a>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/09/23/%E4%BB%80%E4%B9%88%E6%98%AF%E7%99%BD%E5%B8%BD%E5%AD%90%EF%BC%8C%E9%BB%91%E5%B8%BD%E5%AD%90%EF%BC%8C%E7%BA%A2%E5%B8%BD%E5%AD%90%E9%BB%91%E5%AE%A2-%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E9%BB%91%E5%AE%A2%E8%A7%A3%E9%87%8A/">什么是白帽子，黑帽子，红帽子黑客? 不同类型的黑客解释</a>
-    </h1>
-  
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.2"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">FATE</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">FATE</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2022/09/23/%E4%BB%80%E4%B9%88%E6%98%AF%E7%99%BD%E5%B8%BD%E5%AD%90%EF%BC%8C%E9%BB%91%E5%B8%BD%E5%AD%90%EF%BC%8C%E7%BA%A2%E5%B8%BD%E5%AD%90%E9%BB%91%E5%AE%A2-%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E9%BB%91%E5%AE%A2%E8%A7%A3%E9%87%8A/" title="什么是白帽子，黑帽子，红帽子黑客? 不同类型的黑客解释">什么是白帽子，黑帽子，红帽子黑客? 不同类型的黑客解释</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-09-23T06:59:42.000Z" title="发表于 2022-09-23 14:59:42">2022-09-23</time></span></div><div class="content">你是否听说过“白帽黑客”或“黑帽黑客”这个词，并且想知道它的意思？在本文中，你将通过将黑客与多多少少代表他们的漫威或 DC 英雄进行比较，了解他们是如何被分类的，以及他们是做什么的。
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>你是否听说过“白帽黑客”或“黑帽黑客”这个词，并且想知道它的意思？<br>在本文中，你将通过将黑客与多多少少代表他们的漫威或 DC 英雄进行比较，了解他们是如何被分类的，以及他们是做什么的。</p>
-<hr>
-<p>##黑客是什么？</p>
-<p>黑客是利用自己的技能攻破网络安全防御的个人。在网络安全领域，黑客通常被一个“帽子”系统分类。<br>这种制度很可能来自古老的牛仔电影文化，在那里，好的角色通常戴白帽子，坏的角色戴黑帽子。<br>网络空间的主要职责有三:<br>1.White Hats 白帽子<br>2.Grey Hats 灰帽子<br>3.Black Hats 黑帽子</p>
-<p>然而，随着时间的推移，也出现了一些其他的情况，例如:<br>1.Green Hats 绿帽子<br>2.Blue Hats 蓝帽子<br>3.Red Hats 红帽子</p>
-<h2 id="让我们深入了解一下这些不同类型的黑客都做些什么，好吗？"><a href="#让我们深入了解一下这些不同类型的黑客都做些什么，好吗？" class="headerlink" title="让我们深入了解一下这些不同类型的黑客都做些什么，好吗？"></a>让我们深入了解一下这些不同类型的黑客都做些什么，好吗？</h2><p>##1.白帽黑客<br>白帽子就像漫威的美国队长。不管是什么时候，什么年龄，他们总是坚持正义，<br>通过在黑帽子之前发现和报告系统漏洞来保护平民和组织。他们通常为组织工作，<br>担任网络安全工程师、渗透测试员、安全分析师、 CISO (首席信息安全官)和其他安全职位。</p>
-<p>在这些组织下，他们执行下列任务:<br>Scanning networks 扫描网络<br>Configuring IDSs (Intrusion Detection Systems) 配置入侵检测系统<br>Ethically hacking computers to find vulnerabilities and report them so they can be addressed<br>合乎道德的黑进电脑，找出漏洞并报告，以便解决<br>Programming honeypots (Traps for the attackers 😼)<br>编程蜜罐(攻击者的陷阱)<br>Monitoring network activity for suspicious activity<br>监测网络活动以防止可疑活动</p>
-<hr>
-<p>##2.灰帽黑客<br>DC 的黑暗骑士和灰帽黑客有很多共同点。他们都想为正确的事情挺身而出，但却用了一些非常规的方法。<br>灰帽子黑客是白帽子和黑帽子之间的平衡。与白帽黑客不同的是，他们不会要求获得黑客系统的许可，但不会执行任何其他非法活动，比如黑帽黑客。<br>灰帽子的历史颇具争议。这使得他们很难真正分类，特别是当他们的道德指南针有点混乱，或者他们所做的事情看起来更像是黑帽子而不是白帽子。<br>有些人甚至因为他们的所作所为进了监狱。但也有一些人成为了人民的英雄，政府和大机构的敌人。</p>
-<p>灰帽黑客的一些著名例子如下:<br>Anonymous (World famous hacktivist group)<br>匿名者(世界著名的黑客组织)<br>HD Moore (Creator of Metasploit)<br>HD Moore (Metasploit 的创建者)<br>Adrian Lamo (aka the homeless hacker)<br>Adrian Lamo (又名流浪汉黑客)<br>Khalil Shreateh (Hacked the facebook account of Mark Zuckerburg 🤣)<br>Khalil Shreateh (黑了 Mark Zuckerberg 的 Facebook 账号)</p>
-<hr>
-<p>##3.黑帽黑客</p>
-<p>是时候介绍这些有害的东西了。小丑和黑帽子就像一个豆荚里的豌豆。他们为了经济利益、挑战或者仅仅是为了好玩而从事非法活动。<br>他们寻找在互联网上容易受到攻击的计算机，利用它们，并尽可能地利用它们。<br>黑帽子使用技术进入系统，就像白帽子一样。然而，他们并没有使用他们的防守技巧——相反，<br>他们通过做以下事情来提高他们的进攻能力:<br>Installing backdoors 安装后门<br>Maintaining access to compromised systems 维护入侵系统的权限<br>Performing privilege escalation 表演权限提升<br>Downloading private/sensitive/intellectual data 下载私人/敏感/知识资料<br>Installing malware such as ransomware 安装勒索软件等恶意软件<br>Creating phishing emails and links 创建网络钓鱼电子邮件和链接</p>
-<hr>
-<p>##4.绿帽黑客<br>漫威女士和绿帽子简直是天造地设的一对。他们都很年轻，热情，缺乏经验，而且有冒险和从错误中吸取教训的倾向。绿帽子是黑客是新的行业，<br>但愿意学习成为伟大的黑客。由于现在黑客工具的可用性和易用性，绿帽子很容易陷入麻烦，因为他们可能不完全理解工具或目标的全部工作原理。<br>但是，他们从错误中吸取教训，积累经验。绿帽子可以升级到白色，灰色，或黑帽子黑客，因为他们继续向上移动的行列。</p>
-<hr>
-<p>##5.蓝帽黑客</p>
-<p>约翰 · 威克既不是 DC 漫画也不是漫威漫画的成员，但是炸药漫画最伟大的杀手却是所有粉丝的最爱。<br>威克先生和蓝帽黑客有着相同的理念: 复仇。你杀了 John Wicks 的狗，他会来找你的。你恐吓或威胁一个蓝帽子，他们也会来找你，除了你在绞刑架上的数字生活。<br>但是，由于我只能猜测是文化差异，蓝帽子也可能意味着外部安全专家带来测试软件的漏洞之前，它的发布。</p>
-<hr>
-<p>##6.红帽黑客<br>我认为这个角色说明了一切。惩罚者是一个无情的反英雄，站在什么是正确的，但从来没有(我的意思是从来没有)去给罪犯第二次机会。<br>红帽子也是一样，他们以网络罪犯为目标，破坏一切他们能破坏的犯罪活动，永久性的。<br>红帽子是没人愿意招惹的黑客，即使是黑帽子也不行。其他黑客通常攻击微软的 Windows 电脑，但这些黑客，他们黑客 Linux 电脑。<br>他们不后悔，不再犹豫，并且通过伸张正义让黑帽子为他们的罪行付出沉重的代价。他们通过销毁目标的所有数据和备份来实现这一点，通常会使系统失效。</p>
-<hr>
-<p>##结论<br>在这个可怕的音符下，我们已经到了这篇文章的结尾。希望你喜欢。就像我常说的，Happy hacking! </p>
+##黑客是什么？
+黑客是利用自己的技能攻破网络安全防御的个人。在网络安全领域，黑客通常被一个“帽子”系统分类。这种制度很可能来自古老的牛仔电影文化，在那里，好的角色通常戴白帽子，坏的角色戴黑帽子。网络空间的主要职责有三:1.White Hats 白帽子2.Grey Hats 灰帽子3.Black Hats 黑帽子
+然而，随着时间的推移，也出现了一些其他的情况，例如:1.Green Hats 绿帽子2.Blue Hats 蓝帽子3.Red Hats 红帽子
+让我们深入了解一下这些不同类型的黑客都做些什么，好吗？##1.白帽黑客白帽子就像漫威的美国队长。不管是什么时候，什么年龄，他们总是坚持正义，通过在黑帽子之前发现和报告系统漏洞来保护平民和组织。他们通常为组织工作，担任网络安全工程师、渗透测试员、安全分析师、 CISO (首席信息安全官)和其他安全职位。
+在这些组织下，他们执行下列任务:Scanning  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2022/09/22/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/" title="排序算法分析">排序算法分析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-09-22T13:48:31.000Z" title="发表于 2022-09-22 21:48:31">2022-09-22</time></span></div><div class="content">###对内部排序算法的分析：  目前数据结构流行的排序算法主要分为插入排序、交换排序、选择排序、归并排序，基数排序等等，当然这些排序都只是基于内存内的排序，在这我们不涉及外部排序（排序过程涉及数据的内存与外存之间的交换）。对算法进行分析比较，当然要从时间复杂的，空间复杂度以及算法稳定性来看。
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/23/%E4%BB%80%E4%B9%88%E6%98%AF%E7%99%BD%E5%B8%BD%E5%AD%90%EF%BC%8C%E9%BB%91%E5%B8%BD%E5%AD%90%EF%BC%8C%E7%BA%A2%E5%B8%BD%E5%AD%90%E9%BB%91%E5%AE%A2-%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E9%BB%91%E5%AE%A2%E8%A7%A3%E9%87%8A/" data-id="cl8e5ck7y0000bovo1juig0nw" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+###1.插入排序插入排序分为：1.直接插入排序、2.折半插入排序、3.希尔排序  1）用一句通俗易懂的话来形容插入排序，那就是——打扑克。相信大家都玩过斗地主吧，刚发到大家手中的牌自然是无序的，例如{3.5.4.6.2}但是将扑克抓到手中后，先比较第一张和第二张牌，则【3，5】为已排好序的子序列，接下来把下一张牌4插入到子序列【3，5】中，即【3，4，5】形成一个新的子序列，循环如此，直到把最后一张牌插入到子序列中。这就是直接插入排序。从代码上看，直接插入排序的空间复杂度是0(1)量级的，时间复杂度：O(n^2),算法稳定。  2）折半插入排序主要是在直接插入排序的基础上做出优化。在直接插入排序中，有两项工作：1.从前面的有序子序列中找出第i个（待插入元素）应该插入的位置，2.给插入位置腾出空 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2022/09/20/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-09-20T12:51:35.580Z" title="发表于 2022-09-20 20:51:35">2022-09-20</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
 
+More info: Writing
+Run server1$ hexo server
 
-  
-    <article id="post-排序算法分析" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2022/09/22/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/" class="article-date">
-  <time datetime="2022-09-22T13:48:31.000Z" itemprop="datePublished">2022-09-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/09/22/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/">排序算法分析</a>
-    </h1>
-  
+More info: Server
+Generate static files1$ hexo generate
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>###对内部排序算法的分析：<br>  目前数据结构流行的排序算法主要分为插入排序、交换排序、选择排序、归并排序，基数排序等等，<br>当然这些排序都只是基于内存内的排序，在这我们不涉及外部排序（排序过程涉及数据的内存与外存之间的交换）。<br>对算法进行分析比较，当然要从时间复杂的，空间复杂度以及算法稳定性来看。</p>
-<hr>
-<p>###1.插入排序<br>插入排序分为：1.直接插入排序、2.折半插入排序、3.希尔排序<br>  1）用一句通俗易懂的话来形容插入排序，那就是——打扑克。相信大家都玩过斗地主吧，刚发到大家手中的牌自然是无序的，例如{3.5.4.6.2}<br>但是将扑克抓到手中后，先比较第一张和第二张牌，则【3，5】为已排好序的子序列，接下来把下一张牌4插入到子序列【3，5】中<br>，即【3，4，5】形成一个新的子序列，循环如此，直到把最后一张牌插入到子序列中。这就是直接插入排序。<br>从代码上看，直接插入排序的空间复杂度是0(1)量级的，时间复杂度：O(n^2),算法稳定。<br>  2）折半插入排序主要是在直接插入排序的基础上做出优化。在直接插入排序中，有两项工作：1.从前面的有序子序列中找出第i个（待插入元素）应该<br>插入的位置，2.给插入位置腾出空间，将待插入元素复制到表中的插入位置。（若是使用数组，则从最后一个元素开始依次后移）。折半插入排序主要是利用<br>折半查找的思想对1进行优化，减少比较次数。找出插入位置后，统一后移。（因为前面已排序的子序列是有序的，所以才能使用折半查找！！！）<br>从代码上看，直接插入排序的空间复杂度是0(1)量级的，时间复杂度：O(n^2),算法稳定。在数据量不是很大的排序表效果较好。<br>  3）希尔排序又称缩小增量排序，他的基本思想是先将待排序的分割成若干【i，i+d，i+2d，i+3d…….】的子表，对子表分别进行直接插入排序，再缩小增量d，<br>再对每个子表分别排序，最后直到d=1，即对整表进行一次直接插入排序。<br>从代码上看，直接插入排序的空间复杂度是0(1)量级的，时间复杂度：O(n^1.3),算法不稳定。（注意！！！此算法仅适用于数据顺序存储的情况）。</p>
-<hr>
-<p>###2.交换排序<br>交换排序分为：1.冒泡排序、2.快速排序<br>  1）冒泡排序，基本思想是从前往后（从后往前）两两比较相邻元素的值，若a【i】&gt;a【i+1】则交换两者的值，直到最大元素交换到最后一个位置。就像一个气泡<br>从水中冒出一样，所以称为冒泡排序。这里设置一个bool型变量flag，若执行完一遍冒泡，没有发生任何交换，则排序已经完成，算法结束执行。有点类似插入排序，<br>插入排序执行一遍，会得到一个有序子序列，而冒泡排序执行一次，会固定’已冒泡的最值‘。<br>从代码上看，直接插入排序的空间复杂度是0(1)量级的，时间复杂度：O(n^2),算法稳定。<br>  2）快速排序：快速排序的思想基于分治法，在待排序表中任选一个元素作为“基准”，即L【1，2，3……k-1】，基准，L【k+1,k+2,,,,,n】,使大于基准的到后边，<br>小于基准的到前边，再递归的对子表重复，直到每部分只有一个元素或者为空时为止。<br>从代码上看，直接插入排序的空间复杂度是0(log2n)量级的，因为递归需要工作栈保存每一层的信息，其容量与递归调用的最大深度一致。<br>时间复杂度：O(nlog2n),快速排序是所有内部排序算法中平均性能最优的排序算法。<br>算法不稳定。</p>
+More info: Generating
+Deploy to remote sites1$ hexo deploy
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/22/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/" data-id="cl8d41y2j00008wvoeycw8ocq" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">郭晓天</div><div class="author-info__description">路在当下，未来可期</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/2022/09/23/%E4%BB%80%E4%B9%88%E6%98%AF%E7%99%BD%E5%B8%BD%E5%AD%90%EF%BC%8C%E9%BB%91%E5%B8%BD%E5%AD%90%EF%BC%8C%E7%BA%A2%E5%B8%BD%E5%AD%90%E9%BB%91%E5%AE%A2-%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E9%BB%91%E5%AE%A2%E8%A7%A3%E9%87%8A/" title="什么是白帽子，黑帽子，红帽子黑客? 不同类型的黑客解释">什么是白帽子，黑帽子，红帽子黑客? 不同类型的黑客解释</a><time datetime="2022-09-23T06:59:42.000Z" title="发表于 2022-09-23 14:59:42">2022-09-23</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2022/09/22/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/" title="排序算法分析">排序算法分析</a><time datetime="2022-09-22T13:48:31.000Z" title="发表于 2022-09-22 21:48:31">2022-09-22</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2022/09/20/hello-world/" title="Hello World">Hello World</a><time datetime="2022-09-20T12:51:35.580Z" title="发表于 2022-09-20 20:51:35">2022-09-20</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span class="card-archive-list-date">九月 2022</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-09-29T13:38:09.273Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 郭晓天</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var qweather_key = '32a663be6f23481081a1781871316ab8';
+  var gaud_map_key = '2bb046cc40c998c12395528aaf7bd5b0';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '112.982279,28.19409';
+  var clock_default_rectangle_enable = 'false';
 
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
 
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2022/09/20/hello-world/" class="article-date">
-  <time datetime="2022-09-20T12:51:35.580Z" itemprop="datePublished">2022-09-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/09/20/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/20/hello-world/" data-id="cl8aasrzt0001asvo3ijj1czf" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/09/23/%E4%BB%80%E4%B9%88%E6%98%AF%E7%99%BD%E5%B8%BD%E5%AD%90%EF%BC%8C%E9%BB%91%E5%B8%BD%E5%AD%90%EF%BC%8C%E7%BA%A2%E5%B8%BD%E5%AD%90%E9%BB%91%E5%AE%A2-%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E9%BB%91%E5%AE%A2%E8%A7%A3%E9%87%8A/">什么是白帽子，黑帽子，红帽子黑客? 不同类型的黑客解释</a>
-          </li>
-        
-          <li>
-            <a href="/2022/09/22/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/">排序算法分析</a>
-          </li>
-        
-          <li>
-            <a href="/2022/09/20/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2022 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
-</body>
-</html>
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><!-- hexo injector body_end end --></body></html>
